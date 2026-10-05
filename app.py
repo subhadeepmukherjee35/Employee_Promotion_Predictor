@@ -14,6 +14,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score,f1_sco
 # -----------------------------
 # HEADER
 # -----------------------------
+st.set_page_config(page_title="Employee Promotion Predictor", page_icon="📈", layout="wide")
 
 st.title("📈 Employee Promotion Predictor")
 st.caption("This application predicts the likelihood of an employee being promoted based on various features.")
@@ -28,7 +29,7 @@ st.divider()
 
 
 
-st.set_page_config(page_title="Employee Promotion Predictor", page_icon="📈", layout="wide")
+
 
 
 # ------------------------
