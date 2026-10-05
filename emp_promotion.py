@@ -375,3 +375,7 @@ else:
             st.success("The model predicts that the employee is likely to be promoted.")
         else:
             st.warning("The model predicts that the employee is unlikely to be promoted.")
+
+
+st.divider()
+st.caption("Machine Learning + Streamlit Deployment")
