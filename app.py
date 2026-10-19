@@ -38,8 +38,9 @@ st.divider()
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("D:\\ML Achivers IT\\Employee_Promotion_Logistic.csv")
+    df = pd.read_csv("data/Employee_Promotion_Logistic.csv")
     return df
+
 
 
 df = load_data()
